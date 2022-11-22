@@ -1,3 +1,3 @@
-# Resume
+# CV
 
-This is a school project where I'll construct an online resume.
+This is a school project where I'll construct an online CV.
