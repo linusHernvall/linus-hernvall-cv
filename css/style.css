@@ -2,4 +2,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Futura';
 }
+
+:root {
+    --header-height: 5rem;
+  }
+
+body {
+    background-color: #080808;
+    color: white;
+}
+
+header {
+    inset: 0;
+    height: var(--header-height);
+    transition: height 400ms;
+    overflow-y: hidden;
+    border-bottom: 1px solid white;
+    position: fixed;
+
+}
+
+.upper-header {
+    display: flex;
+    align-items: center;
+    height: var(--header-height);
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+#burger-menu {
+    cursor: pointer;
+}
+
+.open-header {
+    height: 30%;
+}
+
+.lower-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lower-header li {
+    list-style: none;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+main {
+    margin-top: var(--header-height);
+    padding: 1rem;
+    border: 1px solid white;
+  }
