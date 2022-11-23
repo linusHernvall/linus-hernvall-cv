@@ -2,17 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Futura';
+    font-family: 'Futura', sans-serif;
 }
 
 :root {
     --header-height: 5rem;
-  }
-
-body {
-    background-color: #080808;
-    color: white;
 }
+
+/* ----------HEADER---------- */
 
 header {
     inset: 0;
@@ -21,7 +18,9 @@ header {
     overflow-y: hidden;
     border-bottom: 1px solid white;
     position: fixed;
-
+    background-color: #080808;
+    color: white;
+    z-index: 10;
 }
 
 .upper-header {
@@ -37,7 +36,7 @@ header {
 }
 
 .open-header {
-    height: 30%;
+    height: 40%;
 }
 
 .lower-header {
@@ -52,8 +51,52 @@ header {
     margin-bottom: 1rem;
 }
 
+/* ----------MAIN---------- */
+
 main {
+    background-color: #080808;
+    color: white;
     margin-top: var(--header-height);
     padding: 1rem;
-    border: 1px solid white;
-  }
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.subheading {
+    font-size: 18px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-container img {
+    height: 300px;
+    object-fit: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.container-print-button {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.container-print-button button {
+    background-color: #9013FE;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.white-line {
+    width: 100%;
+    border-color: white;
+}
