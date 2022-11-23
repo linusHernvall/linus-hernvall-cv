@@ -2,6 +2,7 @@ window.addEventListener('DOMContentLoaded', main);
 
 function main() {
     addEventListeners();
+    showDropdownExperience();
   }
   
   function addEventListeners() {
@@ -12,4 +13,14 @@ function main() {
   function toggleMenu() {
     const header = document.querySelector('header');
     header.classList.toggle('open-header');
+  }
+
+  function showDropdownExperience() {
+      const dropdownExperience = document.getElementById('company-name');
+      dropdownExperience.onclick = toggleDropdown;
+  }
+
+  function toggleDropdown() {
+      const workExperience = document.getElementById('dropdown');
+      workExperience.classList.toggle('work-info');
   }
