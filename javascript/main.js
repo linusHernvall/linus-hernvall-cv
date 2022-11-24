@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', main);
 
 function main() {
     addEventListeners();
-    showDropdownExperience();
+    showAccordionWorkDescription();
   }
   
   function addEventListeners() {
@@ -15,21 +15,21 @@ function main() {
     header.classList.toggle('open-header');
   }
 
-//   /** Displays former work experience. */
-  function showDropdownExperience() {
+/** Displays former work descriptions. */
+  function showAccordionWorkDescription() {
     const sections = document.querySelectorAll('.experience-block section');
     for (const section of sections) {
-      section.addEventListener('click', toggleDropdown);
+      section.addEventListener('click', toggleAccordion);
     }
   }
 
   /**
    * @param {MouseEvent} event
   */
-  function toggleDropdown(event) {
+  function toggleAccordion(event) {
     const section = event.currentTarget;
-    const workExperience = section.querySelector('#dropdown');
-    workExperience.classList.toggle('open-experience');
+    const workDescription = section.querySelector('#text-description');
+    workDescription.classList.toggle('toggle-description');
   }
 
 

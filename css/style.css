@@ -119,8 +119,8 @@ p {
     margin-bottom: 1rem;
 }
 
-/* Opens the  */
-.open-experience {
+/* Shows/ hides the working description.  */
+.toggle-description {
     display: none;
 }
 
