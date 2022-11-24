@@ -105,6 +105,7 @@ p {
 }
 
 .white-line {
+    margin: .5rem 0;
     border-bottom: 1px solid white;
 }
 
@@ -116,7 +117,6 @@ p {
 
 .duration {
     font-size: 12px;
-    margin-bottom: 1rem;
 }
 
 /* Shows/ hides the working description.  */
