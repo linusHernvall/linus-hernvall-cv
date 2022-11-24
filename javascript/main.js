@@ -32,9 +32,15 @@ function main() {
 
   function toggleDropdown() {
       const workExperience = document.getElementById('dropdown');
-      workExperience.classList.toggle('work-info');
+      workExperience.classList.toggle('open-experience');
   }
 
+
+
+
+
+
+  
 // let company = document.getElementById('company-name');
 
 // company.addEventListener('click', function () {
