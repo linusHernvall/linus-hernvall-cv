@@ -68,8 +68,15 @@ main {
     padding: 1rem;
 }
 
-.profile {
+.desktop-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
+}
+
+.desktop-introduction-profile {
+    width: 30%;
 }
 
 h1 {
@@ -147,3 +154,15 @@ p {
 }
 
 /* ---------------MEDIA QUERIES--------------- */
+
+@media (min-width: 800px) {
+    .mobile-profile {
+        display: none;
+    }
+}
+
+/* @media (max-width: 800px) {
+    .profile-desktop {
+        display: none;
+    }
+} */
