@@ -24,7 +24,7 @@ function main() {
 // }
 
 
-  /** Displays former work experience. */
+//   /** Displays former work experience. */
   function showDropdownExperience() {
       const dropdownExperience = document.getElementById('company-name');
       dropdownExperience.onclick = toggleDropdown;
@@ -33,5 +33,15 @@ function main() {
   function toggleDropdown() {
       const workExperience = document.getElementById('dropdown');
       workExperience.classList.toggle('work-info');
-
   }
+
+// let company = document.getElementById('company-name');
+
+// company.addEventListener('click', function () {
+//     let dropdown = document.getElementById('dropdown');
+//     if (dropdown.classList.contains('work-info')) {
+//         dropdown.classList.remove('work-info');
+//     } else {
+//         dropdown.classList.add('dropdown');
+//     }
+// });
