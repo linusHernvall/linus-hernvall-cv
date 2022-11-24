@@ -26,12 +26,20 @@ header {
 .upper-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: var(--header-height);
-    gap: 1rem;
     padding: 0 1rem;
 }
 
 #burger-menu {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.media a {
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
     cursor: pointer;
 }
 
@@ -117,6 +125,7 @@ p {
 
 .duration {
     font-size: 12px;
+    margin-bottom: .5rem;
 }
 
 /* Shows/ hides the working description.  */
@@ -131,4 +140,13 @@ p {
 .purple-line {
     margin: .5rem 0;
     border-bottom: 1px solid #9013FE;
+}
+
+/* ---------------MEDIA QUERIES--------------- */
+
+@media (min-width: 800px) {
+    #burger-menu {
+        display: none;
+    }
+
 }
