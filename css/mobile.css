@@ -157,7 +157,8 @@ p {
 
 @media (min-width: 800px) {
     .mobile-profile {
-        display: none;
+        height: 100vh;
+        
     }
 }
 
