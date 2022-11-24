@@ -15,24 +15,21 @@ function main() {
     header.classList.toggle('open-header');
   }
 
-// function showDropdownExperience() {
-//     const dropdownExperience = document.querySelectorAll('.experience p');
-//     for (const p of dropdownExperience){
-//         dropdownExperience.addEventListener('p');
-
-//     }
-// }
-
-
 //   /** Displays former work experience. */
   function showDropdownExperience() {
-      const dropdownExperience = document.getElementById('company-name');
-      dropdownExperience.onclick = toggleDropdown;
+    const sections = document.querySelectorAll('.experience-block section');
+    for (const section of sections) {
+      section.addEventListener('click', toggleDropdown);
+    }
   }
 
-  function toggleDropdown() {
-      const workExperience = document.getElementById('dropdown');
-      workExperience.classList.toggle('open-experience');
+  /**
+   * @param {MouseEvent} event
+  */
+  function toggleDropdown(event) {
+    const section = event.currentTarget;
+    const workExperience = section.querySelector('#dropdown');
+    workExperience.classList.toggle('open-experience');
   }
 
 
@@ -40,7 +37,7 @@ function main() {
 
 
 
-  
+
 // let company = document.getElementById('company-name');
 
 // company.addEventListener('click', function () {
@@ -51,3 +48,12 @@ function main() {
 //         dropdown.classList.add('dropdown');
 //     }
 // });
+
+
+// function showDropdownExperience() {
+//     const dropdownExperience = document.querySelectorAll('.experience p');
+//     for (const p of dropdownExperience){
+//         dropdownExperience.addEventListener('p');
+
+//     }
+// }
