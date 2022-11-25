@@ -36,6 +36,11 @@ header {
     font-size: 2rem;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .media a {
     color: white;
     font-size: 2rem;
@@ -155,12 +160,12 @@ p {
 
 /* ---------------MEDIA QUERIES--------------- */
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
     .mobile-profile {
-        height: 100vh;
+        
         
     }
-}
+} */
 
 /* @media (max-width: 800px) {
     .profile-desktop {

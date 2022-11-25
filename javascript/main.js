@@ -36,24 +36,3 @@ function main() {
 
 
 
-
-
-// let company = document.getElementById('company-name');
-
-// company.addEventListener('click', function () {
-//     let dropdown = document.getElementById('dropdown');
-//     if (dropdown.classList.contains('work-info')) {
-//         dropdown.classList.remove('work-info');
-//     } else {
-//         dropdown.classList.add('dropdown');
-//     }
-// });
-
-
-// function showDropdownExperience() {
-//     const dropdownExperience = document.querySelectorAll('.experience p');
-//     for (const p of dropdownExperience){
-//         dropdownExperience.addEventListener('p');
-
-//     }
-// }
