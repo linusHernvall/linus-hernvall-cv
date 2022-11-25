@@ -73,28 +73,23 @@ main {
     padding: 1rem;
 }
 
-.desktop-profile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.desktop-introduction-profile {
-    width: 30%;
-}
-
 h1 {
     font-weight: normal;
 }
 
 h3 {
     margin-top: 1rem;
+    scroll-margin-top: var(--header-height);
 }
 
 p {
     font-size: 14px;
 }
+
+/* #section-experience {
+    position: absolute; 
+    top: 10rem;
+} */
 
 .subheading {
     font-size: 18px;
