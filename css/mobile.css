@@ -52,6 +52,10 @@ a {
     height: 45%;
 }
 
+/* .close {
+    height: 0;
+} */
+
 .lower-header {
     display: flex;
     align-items: center;
@@ -170,7 +174,7 @@ p {
 
 /* ---------------MEDIA QUERIES--------------- */
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     .mobile-profile {
         display: none;
         
