@@ -133,6 +133,11 @@ p {
 }
 
 /* ---------------EXPERIENCES--------------- */
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
 .experience-title {
     font-size: 14px;
     cursor: pointer;
@@ -160,13 +165,22 @@ p {
 /* Resusable classes */
 .flex { display: flex;}
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .hidden { display: none;}
 
 .column { flex-direction: column;}
 
 .justify-between { justify-content: space-between;}
 
+.justify-center { justify-content: center;}
+
 .align-center { align-items: center;}
+
+.full-height { height: 100%;}
 
 .gap1 { gap: 1rem;}
 
