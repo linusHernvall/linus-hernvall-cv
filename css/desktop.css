@@ -1,5 +1,6 @@
 .desktop-profile {
   height: 100vh;
+  display: none;
 }
 
 .profile-container { 
@@ -48,3 +49,15 @@
 .p0 { padding: 0;}
 
 .p1 { padding: 1rem;}
+
+/* ---------------MEDIA QUERIES--------------- */
+
+@media (min-width: 1000px) {
+  .mobile-profile {
+      display: none;
+      
+  }
+  .desktop-profile {
+    display: flex;
+  }
+}
