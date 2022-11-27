@@ -10,8 +10,8 @@ function main() {
     burgerMenuButton.onclick = toggleMenu;
 
     const burgerMenuList = document.querySelectorAll('header nav li');
-    for (const li of burgerMenuList) {
-      li.addEventListener('click', toggleMenu);
+    for (const menuLine of burgerMenuList) {
+      menuLine.addEventListener('click', toggleMenu);
     }
   }
 
