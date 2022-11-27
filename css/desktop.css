@@ -3,7 +3,7 @@
   display: none;
 }
 
-.profile-container { 
+.profile-container {
   width: 60%;
 }
 
@@ -20,13 +20,23 @@
 
 @media (min-width: 1000px) {
   .mobile-profile {
-      display: none;
+    display: none;
   }
+
   .desktop-profile {
     display: flex;
   }
-  /* .row {
-
+  
+  .cv-container {
+    display: flex;
+    justify-content: center;
   }
-  } */
+  .experience-education-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    justify-content: space-between;
+    width: 90%;
+  }
+
 }

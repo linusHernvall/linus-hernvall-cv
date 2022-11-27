@@ -132,11 +132,12 @@ p {
     border-bottom: 1px solid white;
 }
 
+.purple-line {
+    margin: .5rem 0;
+    border-bottom: 1px solid #9013FE;
+}
+
 /* ---------------EXPERIENCES--------------- */
-/* .row {
-    display: flex;
-    flex-wrap: wrap;
-} */
 
 .experience-title {
     font-size: 14px;
@@ -157,10 +158,6 @@ p {
     font-size: 14px;
 }
 
-.purple-line {
-    margin: .5rem 0;
-    border-bottom: 1px solid #9013FE;
-}
 
 /* Resusable classes */
 .flex { display: flex;}
@@ -168,9 +165,8 @@ p {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  /* gap: 1rem; */
 }
-
-.hidden { display: none;}
 
 .column { flex-direction: column;}
 
