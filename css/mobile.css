@@ -38,6 +38,10 @@ header {
     font-size: 2rem;
 }
 
+.desktop-header {
+    display: none;
+  }
+
 a {
     text-decoration: none;
     color: white;
@@ -51,7 +55,7 @@ a {
 }
 
 .open-header {
-    height: 45%;
+    height: 50%;
 }
 
 /* .close {
@@ -168,5 +172,7 @@ p {
 .align-center { align-items: center;}
 
 .full-height { height: 100%;}
+
+.gap1 { gap: 1rem; }
 
 

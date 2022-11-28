@@ -1,6 +1,14 @@
+.desktop-header {
+  display: none;
+}
+
 .purple:hover { 
   color: #9013FE;
 }
+
+
+
+
 
 .hover-3 {
   --b: 0.1em;
@@ -31,9 +39,17 @@
 /* ---------------MEDIA QUERIES--------------- */
 
 @media (min-width: 1000px) {
-  /* #burger-menu {
+  #burger-menu {
     display: none;
-  } */
+  }
+
+  .desktop-header {
+    display: flex;
+  }
+
+  .lower-header {
+    display: none;
+  }
 
   .profile-container {
     height: 100vh;

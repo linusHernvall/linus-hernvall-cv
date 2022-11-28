@@ -11,4 +11,4 @@ TO FIX:
 
 * Navigation desktop
 
-* Bakgrundsfärg och runt foto?
+

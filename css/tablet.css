@@ -16,6 +16,10 @@
 /* ---------------MEDIA QUERIES--------------- */
 
 @media (min-width: 768px) {
+    .desktop-header {
+        display: none;
+    }
+    
     .mobile-profile {
         display: none;
     }
