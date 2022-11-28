@@ -162,14 +162,6 @@ p {
 /* Resusable classes */
 .flex { display: flex;}
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* gap: 1rem; */
-}
-
-.column { flex-direction: column;}
-
 .justify-between { justify-content: space-between;}
 
 .justify-center { justify-content: center;}
@@ -178,11 +170,4 @@ p {
 
 .full-height { height: 100%;}
 
-.gap1 { gap: 1rem;}
-
-.m0 { margin: 0;}
-
-.p0 { padding: 0;}
-
-.p1 { padding: 1rem;}
 

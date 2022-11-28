@@ -1,0 +1,26 @@
+.profile-container {
+    display: none;
+}
+
+.profile {
+    width: 60%;
+  }
+
+  .img-container img {
+    height: 400px;
+    object-fit: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+/* ---------------MEDIA QUERIES--------------- */
+
+@media (min-width: 768px) {
+    .mobile-profile {
+        display: none;
+    }
+
+    .profile-container {
+        display: flex;
+    }
+}
