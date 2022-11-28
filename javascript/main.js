@@ -1,20 +1,25 @@
 window.addEventListener('DOMContentLoaded', main);
 
+/**  */
 function main() {
     addEventListeners();
     showAccordionWorkDescription();
   }
   
+  /** Opens the navigation when the burger menu is clicked.
+   * Then menu toggles when any of the list items are clicked.
+   */
   function addEventListeners() {
     const burgerMenuButton = document.getElementById('burger-menu');
     burgerMenuButton.onclick = toggleMenu;
 
-    const burgerMenuList = document.querySelectorAll('header nav li');
-    for (const menuLine of burgerMenuList) {
-      menuLine.addEventListener('click', toggleMenu);
+    const burgerMenuList = document.querySelectorAll('upper-header nav li');
+    for (const menuListItem of burgerMenuList) {
+      menuListItem.addEventListener('click', toggleMenu);
     }
   }
 
+  /** Toggles the CSS-class "open-header", which sets the header to 50% height. */
   function toggleMenu() {
     const header = document.querySelector('header');
     header.classList.toggle('open-header');

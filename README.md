@@ -7,8 +7,9 @@ TO FIX:
 
 * Hur stor skärm ska jag anpassa den största MQ efter?
 
-* Print-knapp
+* Print-knapp + styling
 
 * Navigation desktop
 
+* JS-doc 
 
