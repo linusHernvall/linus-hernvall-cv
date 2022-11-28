@@ -13,7 +13,7 @@ function main() {
     const burgerMenuButton = document.getElementById('burger-menu');
     burgerMenuButton.onclick = toggleMenu;
 
-    const burgerMenuList = document.querySelectorAll('upper-header nav li');
+    const burgerMenuList = document.querySelectorAll('header nav li');
     for (const menuListItem of burgerMenuList) {
       menuListItem.addEventListener('click', toggleMenu);
     }

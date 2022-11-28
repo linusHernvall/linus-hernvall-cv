@@ -54,7 +54,8 @@
 
   .profile-container {
     height: 100vh;
-    /* max-width: 90rem; */
+    max-width: 90rem;
+    margin: 0 auto;
   }
 
   .profile {
@@ -65,6 +66,8 @@
   .cv-container {
     display: flex;
     justify-content: center;
+    max-width: 200rem;
+    margin: 0 auto;
   }
 
   .cv-block {
@@ -78,6 +81,8 @@
   .merit-contact-container {
     display: flex;
     justify-content: center;
+    max-width: 200rem;
+    margin: 0 auto;
   }
 
   .merit-contact-block {

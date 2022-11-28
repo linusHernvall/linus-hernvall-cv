@@ -20,7 +20,7 @@ header {
     overflow-y: hidden;
     border-bottom: 1px solid white;
     position: fixed;
-    background-color: black;
+    background-color: #1e1e1e;
     color: white;
     z-index: 10;
 }
