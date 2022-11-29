@@ -73,7 +73,6 @@ a {
 
 main {
     background-color: black;
-    /* background-color: #1e1e1e; */
     color: white;
     margin-top: var(--header-height);
     padding: 1rem;
@@ -114,13 +113,13 @@ p {
     filter: grayscale(100%);
 }
 
-.container-print-button {
+.container-cv-button {
     display: flex;
     justify-content: center;
     margin: 1rem;
 }
 
-.container-print-button button {
+.container-cv-button button {
     background-color: #9013FE;
     color: white;
     padding: 1rem 2rem;
