@@ -7,5 +7,3 @@ TO FIX:
 * Print-knapp + styling, skriva ut direkt när klickad på?
 
 * JS-doc 
-
-* Header toggle desktop.

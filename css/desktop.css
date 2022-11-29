@@ -1,3 +1,8 @@
+:root {
+  --min-desktop-width: 1000px;
+  --clr: none;
+}
+
 .desktop-header {
   display: none;
 }
