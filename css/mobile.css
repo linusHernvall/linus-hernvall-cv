@@ -93,11 +93,11 @@ h3 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 .subheading {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .mobile-img-container {
@@ -107,7 +107,7 @@ p {
 }
 
 .mobile-img-container img {
-    height: 300px;
+    height: 18rem;
     object-fit: cover;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -123,37 +123,43 @@ p {
     background-color: #9013FE;
     color: white;
     padding: 1rem 2rem;
-    font-size: 16px;
-    border-radius: 1.5rem;
+    font-size: 1rem;
+    /* border-radius: 1.5rem; */
     border: none;
     cursor: pointer;
 }
 
+.container-cv-button button:hover {
+    background-color: #1e1e1e;
+}
+
 .white-line {
-    margin: .5rem 0;
+    margin: 0.5rem 0;
     border-bottom: 1px solid white;
 }
 
 .purple-line {
-    margin: .5rem 0;
+    margin: 0.5rem 0;
     border-bottom: 1px solid #9013FE;
 }
 
 /* ---------------EXPERIENCES--------------- */
 
 .experience-title {
-    font-size: 14px;
+    font-size: 0.9rem;
     cursor: pointer;
 }
 
 .duration {
-    font-size: 12px;
-    margin-bottom: .5rem;
+    font-size: 0.75rm;
+    margin-bottom: 0.5rem;
 }
 
 /* Shows/ hides the working description.  */
 .toggle-description {
     display: none;
+    /* transition: height 400ms; */
+    /* overflow-y: hidden; */
 }
 
 
