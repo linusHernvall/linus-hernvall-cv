@@ -2,7 +2,7 @@
 
 This is a school project where I'll construct an online CV.
 
-(Link) [https://linushernvall.github.io/linus-hernvall-cv/]
+[LINK](https://linushernvall.github.io/linus-hernvall-cv/)
 
 TO FIX:
 
