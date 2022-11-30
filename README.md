@@ -9,3 +9,7 @@ TO FIX:
 * Print-knapp + styling, skriva ut direkt när klickad på?
 
 * JS-doc 
+
+* Fixa accordion på all erfarenhet + utbildning.
+
+* Fyll på README.
