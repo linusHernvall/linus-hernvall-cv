@@ -1,5 +1,7 @@
 :root {
+  /* A variable used for desktop media query. */
   --min-desktop-width: 1000px;
+  /* A variable used for a hover function. */
   --clr: none;
 }
 

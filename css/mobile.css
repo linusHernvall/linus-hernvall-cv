@@ -154,11 +154,20 @@ p {
     margin-bottom: 0.5rem;
 }
 
+
 /* Shows/ hides the working description.  */
 .toggle-description {
     display: none;
-    /* transition: height 400ms; */
-    /* overflow-y: hidden; */
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: 400ms;
+}
+.content-active {
+    max-height: 100rem;
+    transition: 400ms;
 }
 
 

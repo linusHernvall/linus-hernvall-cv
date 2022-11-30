@@ -52,5 +52,5 @@ function showAccordionWorkDescription() {
 function toggleAccordion(event) {
   const section = event.currentTarget;
   const workDescription = section.querySelector('#text-description');
-  workDescription.classList.toggle('toggle-description');
+  workDescription.classList.toggle('content-active');
 }
