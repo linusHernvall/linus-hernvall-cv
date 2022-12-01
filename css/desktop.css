@@ -10,7 +10,7 @@
 }
 
 .purple:hover { 
-  color: #9013FE;
+  color: var(--clr-theme);
 }
 
 
@@ -20,7 +20,7 @@
 .hover-purple-line {
   --b: 0.1em;
   /* the thickness of the line */
-  --c: #9013FE;
+  --c: var(--clr-theme);
   /* the color */
 
   color: #0000;
