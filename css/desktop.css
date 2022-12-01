@@ -58,7 +58,6 @@
     display: none;
   }
 
-
   .profile-container {
     height: 100vh;
     max-width: 90rem;
@@ -69,6 +68,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .container-cv-button {
+    margin: 1rem;
+}
 
   .cv-container {
     display: flex;

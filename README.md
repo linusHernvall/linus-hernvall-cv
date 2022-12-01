@@ -8,10 +8,10 @@ TO FIX:
 
 * Print-knapp + styling, skriva ut direkt när klickad på?
 
+* Neoneffekt på Github & LinkedIn
+
 * JS-doc 
 
-* Sätt all lila färg till variabel.
-
-* Fixa accordion på all erfarenhet + utbildning.
-
 * Fyll på README.
+
+* Full-height vs 100vh
