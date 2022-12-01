@@ -54,6 +54,3 @@ function toggleAccordion(event) {
   const workDescription = section.querySelector('#text-description');
   workDescription.classList.toggle('description-active');
 }
-
-
-  
