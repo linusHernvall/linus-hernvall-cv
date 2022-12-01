@@ -195,9 +195,12 @@ p {
 
 /* ---------------EXPERIENCES--------------- */
 
+section {
+    cursor: pointer;
+}
+
 .experience-title {
     font-size: 0.9rem;
-    cursor: pointer;
 }
 
 .duration {
@@ -205,19 +208,14 @@ p {
     margin-bottom: 0.5rem;
 }
 
-
 /* Shows/ hides the working description.  */
-.toggle-description {
-    display: none;
-}
-
-.content {
-    max-height: 0;
+.description {
+    max-height: 100rem;
     overflow: hidden;
     transition: 400ms;
 }
-.content-active {
-    max-height: 100rem;
+.description-active {
+    max-height: 0;
     transition: 400ms;
 }
 
