@@ -6,3 +6,5 @@ As this education continues, this page will be updated with further areas and ni
 My ambition is to use this page in my search for upcoming LIA and future job applications.
 
 [Link to the page.](https://linushernvall.github.io/linus-hernvall-cv/)
+
+* Indentera alla filer.

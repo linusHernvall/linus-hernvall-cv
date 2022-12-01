@@ -4,14 +4,14 @@
 
 .profile {
     width: 60%;
-  }
+}
 
-  .img-container img {
+.img-container img {
     height: 25rem;
     object-fit: cover;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-  }
+}
 
 /* ---------------MEDIA QUERIES--------------- */
 
@@ -19,7 +19,7 @@
     .desktop-header {
         display: none;
     }
-    
+
     .mobile-profile {
         display: none;
     }

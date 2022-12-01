@@ -42,7 +42,7 @@ header {
 
 .desktop-header {
     display: none;
-  }
+}
 
 a {
     text-decoration: none;
@@ -132,12 +132,12 @@ p {
     text-decoration: none;
     cursor: pointer;
 
-    text-shadow: 
-    0 0 .5rem hsl(0, 0%, 100%, .3),
-    0 0 1rem var(--clr-theme);
+    text-shadow:
+        0 0 .5rem hsl(0, 0%, 100%, .3),
+        0 0 1rem var(--clr-theme);
 
     box-shadow: inset 0 0 1rem 0 var(--clr-theme),
-    0 0 1.5rem 0 var(--clr-theme);
+        0 0 1.5rem 0 var(--clr-theme);
 
     position: relative;
 }
@@ -216,6 +216,7 @@ section {
     overflow: hidden;
     transition: 400ms;
 }
+
 .description-active {
     max-height: 0;
     transition: 400ms;
@@ -224,14 +225,22 @@ section {
 
 
 /* Resusable classes */
-.flex { display: flex;}
+.flex {
+    display: flex;
+}
 
-.justify-between { justify-content: space-between;}
+.justify-between {
+    justify-content: space-between;
+}
 
-.justify-center { justify-content: center;}
+.justify-center {
+    justify-content: center;
+}
 
-.align-center { align-items: center;}
+.align-center {
+    align-items: center;
+}
 
-.gap1 { gap: 1rem; }
-
-
+.gap1 {
+    gap: 1rem;
+}

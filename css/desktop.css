@@ -9,12 +9,9 @@
   display: none;
 }
 
-.purple:hover { 
+.purple:hover {
   color: var(--clr-theme);
 }
-
-
-
 
 /* Har tagit den här effekten rakt av. */
 .hover-small-line {
@@ -37,11 +34,6 @@
   --_p: 100%;
   --_s: .3s;
 }
-
-
-
-
-
 
 /* ---------------MEDIA QUERIES--------------- */
 
@@ -71,7 +63,7 @@
 
   .container-cv-button {
     margin: 1rem;
-}
+  }
 
   .cv-container {
     display: flex;
