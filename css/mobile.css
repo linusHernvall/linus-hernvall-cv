@@ -8,7 +8,8 @@
 
 :root {
     --header-height: 5rem;
-    --clr-theme: #9013FE;
+    /* --clr-theme: #9013FE; */
+    --clr-theme: #FF5F1F;
     --text-clr: white;
 }
 
@@ -136,7 +137,7 @@ p {
     0 0 1rem var(--clr-theme);
 
     box-shadow: inset 0 0 1rem 0 var(--clr-theme),
-    0 0 1rem 0 var(--clr-theme);
+    0 0 1.5rem 0 var(--clr-theme);
 
     position: relative;
 }
@@ -151,9 +152,9 @@ p {
     width: 100%;
     height: 100%;
 
-    transform: perspective(1rem) rotateX(40deg) scale(1, 0.25);
+    transform: perspective(.7rem) rotateX(40deg) scale(1, 0.25);
     filter: blur(1.5rem);
-    opacity: .8;
+    opacity: .6;
 }
 
 .neon-button:after {
@@ -184,12 +185,12 @@ p {
     opacity: 1;
 }
 
-.white-line {
+.big-line {
     margin: 0.5rem 0;
     border-bottom: 1px solid var(--text-clr);
 }
 
-.purple-line {
+.small-line {
     margin: 0.5rem 0;
     border-bottom: 1px solid var(--clr-theme);
 }
