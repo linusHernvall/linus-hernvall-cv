@@ -59,7 +59,7 @@
   }
 
   .profile-container {
-    height: 100vh;
+    height: calc(100vh - var(--header-height));
     max-width: 90rem;
     margin: 0 auto;
   }

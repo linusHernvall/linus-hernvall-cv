@@ -9,8 +9,6 @@ My ambition is to use this page in my search for upcoming LIA and future job app
 
 TO FIX:
 
-* JS-doc 
+* Scroll vid navigering
 
 * Fyll på README.
-
-* Full-height vs 100vh
