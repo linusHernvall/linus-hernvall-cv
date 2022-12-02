@@ -21,8 +21,9 @@ function addEventListeners() {
 }
 
 /** 
- * If the desktop width is less than the CSS-custom property "--min-desktop-width" (1000px) the 
- * CSS-class "open-header" toggles, which sets the header to 50% height.
+ * If the desktop width is less than the CSS-custom property "--min-desktop-width" 
+ * (media quiery desktop, in this case 1000px) the CSS-class "open-header" toggles, 
+ * which sets the header to 50% height.
  * 
  * Otherwise the "open-header" remains hiddden when the header is clicked.
  */
@@ -30,10 +31,13 @@ function toggleMenu() {
   const root = document.querySelector(':root');
   const rootStyle = getComputedStyle(root);
   const minDesktopWidth = parseInt(rootStyle.getPropertyValue('--min-desktop-width'));
+  const burgerMenuButton = document.getElementById('burger-menu');
 
   if (window.innerWidth < minDesktopWidth) {
     const header = document.querySelector('header');
     header.classList.toggle('open-header');
+
+    burgerMenuButton.classList.toggle('open-menu');
   }
 
 }
