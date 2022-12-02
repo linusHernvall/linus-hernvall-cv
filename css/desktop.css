@@ -50,6 +50,10 @@
     display: none;
   }
 
+  .open-header {
+    height: var(--header-height);
+  }
+
   .profile-container {
     height: calc(100vh - var(--header-height));
     max-width: 90rem;
