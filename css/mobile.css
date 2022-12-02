@@ -253,12 +253,11 @@ section {
 .description {
     max-height: 100rem;
     overflow: hidden;
-    transition: 400ms;
+    transition: 200ms;
 }
 
 .description-active {
     max-height: 0;
-    transition: 400ms;
 }
 
 
